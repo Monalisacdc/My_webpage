@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: docs
+
+execute:
+  cache: true
+  freeze: auto
+  warning: false
+
+
+
+  
+website:
+  title: "Home"
+  
+  navbar:
+    tools:
+      - icon: twitter
+        href: https://twitter.com/monalisacdc
+      - icon: github
+        href: https://github.com/Monalisacdc
+      - icon: linkedin
+        href: https://www.linkedin.com/in/monalisa-de-c%C3%B3l-62a6b31b8/
+    background: primary
+    search: true
+    left:
+      - text: Achievements
+        file: minhas_conquistas.qmd
+      - text: Books
+        file: leituras.qmd
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+    
+    
+editor: visual
+
